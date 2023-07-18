@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { FiArrowRight } from "react-icons/fi";
 // import profile from "../assets/profile-removebg-preview.png";
-import profile2 from "../assets/profile2.png";
+import profile3 from "../assets/profile3.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
 
-    <div id="home" className="max-w-[1215px] pt-[100px] h-auto lg:h-screen 2xl:h-auto mx-auto">
+    <div id="home" className="max-w-[1215px] pt-[100px] h-auto lg:h-screen 2xl:h-auto mx-auto mt-5">
 
       <div className="flex flex-wrap-reverse px-5 justify-between items-center">
         <div className="w-full lg:px-0 mx-auto lg:w-[550px] xl:w-[650px] mb-[100px] lg:mb-0">
@@ -34,7 +34,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="max-w-[600px] text-base_sm md:text-base font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
           >
-            Hi! I’m Jake, a frontend developer based in Yangon,Myanmar. I create
+            Hi! I’m Shin Thant Lwin, a frontend developer based in Yangon,Myanmar. I create
             user-friendly interfaces for fast-growing startups.
           </p>
           <div
@@ -56,9 +56,9 @@ const Hero = () => {
           data-aos-duration="1000"
           data-aos-once="true"
           data-aos-delay="100"
-          className="mx-auto mb-5 md:mb-0 w-[300px] lg:w-[400px] xl:w-[500px]"
+          className="mx-auto mb-5 md:mb-0 "
         >
-          <img src={profile2} />
+          <img src={profile3} className="w-[200px] lg:w-[300px] xl:w-[350px]"/>
         </div>
       </div>
     </div>
