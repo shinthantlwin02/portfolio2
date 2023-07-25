@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "./Button";
 import { FiArrowRight } from "react-icons/fi";
-// import profile from "../assets/profile-removebg-preview.png";
 import profile3 from "../assets/profile3.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +21,7 @@ const Hero = () => {
             className="text-title_sm md:text-hero_title font-[700] tracking-tighter mb-8 "
           >
             <span className="text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500">
-              I create products
+            I create products
             </span>{" "}
             <br />
             that delight and inspire people.
@@ -34,7 +33,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="max-w-[600px] text-base_sm md:text-base font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
           >
-            Hi! I’m Shin Thant Lwin, a frontend developer based in Yangon,Myanmar. I create
+            Hi!I’m Shin Thant Lwin, a frontend developer based in Yangon, Myanmar. I create
             user-friendly interfaces for fast-growing startups.
           </p>
           <div

@@ -9,6 +9,8 @@ import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
 import Contact from "../components/Contact";
 import ThemeBtn from "../components/Theme/ThemeBtn";
+import OurTeam from "../components/OurTeam";
+
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -56,6 +58,9 @@ const Home = () => {
         </section>
         <section className=" py-[80px]">
           <About />
+        </section>
+        <section className=" py-[80px]">
+          <OurTeam />
         </section>
         <section className=" py-[80px] pb-[160px]">
           <Contact />

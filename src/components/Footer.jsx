@@ -35,13 +35,13 @@ const Footer = () => {
                 My Portfolio<span className=" text-red-400">.</span>
               </h1>
             </a>
-            <p>4353 Delaware Avenue, San Francisco, USA</p>
+            <p>Yangon, Myanmar</p>
             <a href="#" className=" flex items-center gap-2 ">
               <img
                 src="https://assets.website-files.com/5fef5619b640934b33c2385e/60792c7df85964dafaa3825d_Vector.svg"
                 alt=""
               />
-              <div className=" font-[700]">hi@thefolio.com</div>
+              <div className=" font-[700]">shinshinshinstl@gmail.com</div>
             </a>
           </div>
 
