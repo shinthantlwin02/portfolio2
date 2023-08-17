@@ -51,11 +51,12 @@ const Home = () => {
           <Hero />
         </section>
         <section className=" py-[80px]">
-          <Services />
-        </section>
-        <section className=" py-[80px]">
           <Projects />
         </section>
+        <section className=" py-[80px]">
+          <Services />
+        </section>
+        
         <section className=" py-[80px]">
           <About />
         </section>

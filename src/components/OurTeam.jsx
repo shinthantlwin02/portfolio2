@@ -50,9 +50,8 @@ const OurTeam = () => {
               Our Team
             </h1>
             <p className="text-base_sm md:text-base text-gray-500 dark:text-gray-300 font-[500]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              minima dignissimos est sapiente quos fugiat incidunt odio
-              perspiciatis porro veritatis.
+             
+Meet our outstanding team! Comprising dedicated professionals with diverse skills and a unified mission, we collaborate seamlessly to achieve remarkable results. Each member brings a unique perspective, contributing to our collective goal. Join us to be a part of our shared vision and make a meaningful impact together!
             </p>
           </div>
           <div className=" lg:col-span-2 max-sm:w-[80%] max-sm:mx-auto">

@@ -1,9 +1,10 @@
 import React from "react";
 import Button from "./Button";
 import { FiArrowRight } from "react-icons/fi";
-import profile3 from "../assets/profile3.png";
+import profile from "../assets/portfolioimg2.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 const Hero = () => {
   Aos.init();
 
@@ -33,8 +34,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="max-w-[600px] text-base_sm md:text-base font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
           >
-            Hi!I’m Shin Thant Lwin, a frontend developer based in Yangon, Myanmar. I create
-            user-friendly interfaces for fast-growing startups.
+            Hello, I'm a frontend developer who turns designs into interactive and captivating websites. I bring creativity and functionality together to deliver exceptional digital experiences.
           </p>
           <div
             data-aos="fade-up"
@@ -43,11 +43,13 @@ const Hero = () => {
             data-aos-delay="300"
             className="flex flex-col md:flex-row items-start md:items-center gap-5 ps-2"
           >
+            <a href="#contact">
             <Button text={"Book a call"} />
-            <div className="group flex items-center gap-3 font-[700] cursor-pointer">
+            </a>
+            {/* <div className="group flex items-center gap-3 font-[700] cursor-pointer">
               <p>Download CV </p>{" "}
               <FiArrowRight className="group-hover:translate-x-2 transition-all duration-300 ease-in-out" />
-            </div>
+            </div> */}
           </div>
         </div>
         <div
@@ -57,7 +59,7 @@ const Hero = () => {
           data-aos-delay="100"
           className="mx-auto mb-5 md:mb-0 "
         >
-          <img src={profile3} className="w-[200px] lg:w-[300px] xl:w-[350px]"/>
+          <img src={profile} className="w-[200px] lg:w-[300px] xl:w-[350px]"/>
         </div>
       </div>
     </div>
