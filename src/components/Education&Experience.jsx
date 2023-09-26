@@ -61,7 +61,7 @@ const EducationExperience = () => {
             {education?.map((el,index) => {
               return (
                 <div key={el?.id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay={150*index} className="group">
-                   <div className="flex items-start justify-between py-[40px] h-[150px] border-b-gray-200 border-b-2">
+                   <div className="flex items-start justify-between py-[40px] h-[200px] border-b-gray-200 border-b-2">
                   <div className="flex flex-wrap gap-3 w-full items-end justify-between me-5">
                     <div>
                       <h3 className="text-base font-[500] mb-1">{el?.name}</h3>
