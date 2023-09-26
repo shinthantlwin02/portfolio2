@@ -41,7 +41,7 @@ const Footer = () => {
                 src="https://assets.website-files.com/5fef5619b640934b33c2385e/60792c7df85964dafaa3825d_Vector.svg"
                 alt=""
               />
-              <div className=" font-[700]">vipee1500@gmail.com</div>
+              <div className=" font-[700]">vibee1500@gmail.com</div>
             </a>
           </div>
 

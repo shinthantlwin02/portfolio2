@@ -37,7 +37,7 @@ const Contact = () => {
               >
                 <div className=" flex items-center gap-2">
                   <IoMdMail className=" text-[25px]"/>
-                  <div class="">vipee1500@gmail.com</div>
+                  <div class="">vibee1500@gmail.com</div>
                 </div>
                 <div className=" flex items-center gap-2">
                   <BsTelephoneFill />
