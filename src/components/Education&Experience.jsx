@@ -16,10 +16,10 @@ const EducationExperience = () => {
         },
         {
             id:2,
-          name: "Shin Nichi Japanese Language Center",
-          course: "N4 Level Japanese Basic Course",
-          startDate: "2021",
-          endDate: "2022",
+          name: "Advanced Diploma in Business Management",
+          course: "University Of Co-operative and Management,Thanlyin",
+          startDate: "2019",
+          endDate: "2020",
         },
         {
             id:3,
