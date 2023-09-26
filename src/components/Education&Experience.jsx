@@ -9,23 +9,23 @@ const EducationExperience = () => {
     const education = [
         {
           id:1,
-          name: "MMSIT",
-          course: "Frontend Web Development",
-          startDate: "2022",
-          endDate: "2023",
+          name: "Higher Diploma in Business Management",
+          course: "University Of Co-operative and Management,Thanlyin",
+          startDate: "2018",
+          endDate: "2019",
         },
         {
             id:2,
-          name: "Binary Digital Toolbox",
-          course: "UI/UX Design",
+          name: "Shin Nichi Japanese Language Center",
+          course: "N4 Level Japanese Basic Course",
           startDate: "2021",
           endDate: "2022",
         },
         {
             id:3,
-          name: "Compass",
-          course: "React JS",
-          startDate: "2023",
+          name: "Shin Nichi Japanese Language Center",
+          course: "N4 Level Japanese Course",
+          startDate: "2022",
           endDate: "2023",
         },
       ];
@@ -34,26 +34,18 @@ const EducationExperience = () => {
         {
             id:1,
           img: "https://assets.website-files.com/5fef5619b640934b33c2385e/6087cab3a74dfa369ea2e92a_Group%2084.svg",
-          name: "MMSIT Workshop",
-          position: "Frontend developer",
-          startDate: "June2023",
+          name: "Freelance Photographer",
+          position: "",
+          startDate: "2022",
           endDate: "Current",
         },
         {
             id:2,
           img: "https://assets.website-files.com/5fef5619b640934b33c2385e/6087cab3f70370b7efe8c560_Group%2085.svg",
-          name: "Hikari fashion",
-          position: "Assistant fashion designer",
-          startDate: "April2020",
-          endDate: "May2021",
-        },
-        {
-            id:3,
-          img: "https://assets.website-files.com/5fef5619b640934b33c2385e/6087cab33450e64d2fa55138_Group%2086.svg",
-          name: "SOM education",
-          position: "UI/UX instructor",
-          startDate: "July2023",
-          endDate: "October2023",
+          name: "Cars sale and marketing manager",
+          position: "",
+          startDate: "2020",
+          endDate: "Current",
         },
       ];
   return (
@@ -101,12 +93,11 @@ const EducationExperience = () => {
             return (
               <div key={el?.id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay={150*index} className="group">
                 <div className=" flex items-start justify-between py-[40px] h-[150px]  border-b-gray-200 border-b-2">
-                  <div className="flex flex-wrap gap-3 w-full items-end justify-between me-5">
+                  <div className="flex flex-col gap-3 w-full items-start justify-between me-5">
                     <div className="flex">
                       <img className="w-[50px] me-5" src={el?.img} />
                       <div>
                          <h3 className="text-base font-[500] mb-1">{el?.name}</h3>
-                      <p className="text-gray-500 font-[500]">{el?.position}</p>
                       </div>
                      
                     </div>

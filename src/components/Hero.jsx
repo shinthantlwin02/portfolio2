@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { FiArrowRight } from "react-icons/fi";
-import profile from "../assets/portfolioimg2.png";
+import profile from "../assets/cmo.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
@@ -22,10 +22,10 @@ const Hero = () => {
             className="text-title_sm md:text-hero_title font-[700] tracking-tighter mb-8 "
           >
             <span className="text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500">
-            I create products
+            Your Bridge to a 
             </span>{" "}
             <br />
-            that delight and inspire people.
+            More Productive, Happier Workforce
           </h1>
           <p
             data-aos="fade-up"
@@ -34,7 +34,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="max-w-[600px] text-base_sm md:text-base font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
           >
-            Hello, I'm a frontend developer who turns designs into interactive and captivating websites. I bring creativity and functionality together to deliver exceptional digital experiences.
+            Hello, I'm Chen Min Oo, your dedicated HR partner. With a passion for people and a focus on results, I'm here to help your organization thrive. Let's work together to unlock your team's potential and build a vibrant workplace culture.
           </p>
           <div
             data-aos="fade-up"

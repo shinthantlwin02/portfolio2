@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <>
       <div>
-        <div id="contact" className=" max-w-[1215px] px-5 mx-auto">
+        <div id="contact" className=" max-w-[1215px] flex justify-center">
           {/* contact wrapper  */}
-          <div className=" grid lg:grid-cols-5 gap-y-10 sm:gap-20">
+          <div className="px-5">
             {/* left  */}
             <div className="lg:col-span-2 text-base_sm md:text-base text-gray-500 dark:text-gray-300 font-[500] space-y-10">
               <h1 className=" text-title_sm md:text-title font-[700] text-black dark:text-white">
@@ -37,110 +37,17 @@ const Contact = () => {
               >
                 <div className=" flex items-center gap-2">
                   <IoMdMail className=" text-[25px]"/>
-                  <div class="">shinshinshinstl@gmail.com</div>
+                  <div class="">vipee1500@gmail.com</div>
                 </div>
                 <div className=" flex items-center gap-2">
                   <BsTelephoneFill />
-                  <div class="">09-793972936</div>
+                  <div class="">09-765320562</div>
                 </div>
               </div>
             </div>
 
             {/* right  */}
-            <div className=" lg:col-span-3 dark:text-white">
-              {/* form wrapper  */}
-              <div
-                className=" space-y-8"
-                data-aos="fade-up"
-                data-aos-offset="200"
-                data-aos-duration="1200"
-                data-aos-once="true"
-              >
-                {/* name wrapper  */}
-                <div className=" grid md:grid-cols-2 gap-10">
-                  <div className=" flex flex-col gap-3">
-                    <label htmlFor="first" className=" font-[700]">
-                      First Name
-                    </label>
-                    <input
-                      id="first"
-                      type="text"
-                      className=" py-4 px-5 bg-gray-100 outline-none dark:text-gray-500"
-                      placeholder="First Name"
-                    />
-                  </div>
-                  <div className=" flex flex-col gap-3">
-                    <label htmlFor="last" className=" font-[700]">
-                      Last Name
-                    </label>
-                    <input
-                      id="last"
-                      type="text"
-                      className=" py-4 px-5 bg-gray-100 outline-none dark:text-gray-500"
-                      placeholder="Last Name"
-                    />
-                  </div>
-                </div>
-                {/* email  */}
-                <div className=" flex flex-col gap-3">
-                  <label htmlFor="email" className=" font-[700]">
-                    Your Email
-                  </label>
-                  <div className=" flex items-center gap-3 px-5 bg-gray-100">
-                    <img
-                      className=" w-5"
-                      src="https://assets.website-files.com/5fef5619b640934b33c2385e/606421699f78709a207218d0_Vector-2.svg"
-                    ></img>
-                    <input
-                      id="email"
-                      type="email"
-                      className=" py-4 bg-gray-100 outline-none dark:text-gray-500"
-                      placeholder="Enter your e-mail"
-                    />
-                  </div>
-                </div>
-                {/* budget  */}
-                <div class="flex flex-col gap-3">
-                  <label htmlFor="Budget-2" class="font-[700]">
-                    Your Budget
-                  </label>
-                  <div className=" relative text-gray-500">
-                    <img
-                      className=" absolute top-4 left-5 w-5"
-                      src="https://assets.website-files.com/5fef5619b640934b33c2385e/60642169c28d21d6831de16d_Vector.svg"
-                      alt=""
-                    />
-                    <select
-                      id="Budget-2"
-                      required=""
-                      class=" py-4 pl-12 bg-gray-100 outline-none w-full"
-                    >
-                      <option value="First">1k-3k</option>
-                      <option value="Second">3k-5k</option>
-                      <option value="Third">5k-10k</option>
-                      <option value="Fourth">More than 10k</option>
-                    </select>
-                  </div>
-                </div>
-
-                {/* Detail  */}
-                <div className=" flex flex-col gap-3">
-                  <label htmlFor="first" className=" font-[700]">
-                    Tell me a bit more what you are looking for?
-                  </label>
-                  <textarea
-                    id="first"
-                    type="text"
-                    rows="5"
-                    className=" py-4 px-5 bg-gray-100 outline-none dark:text-gray-500"
-                    placeholder="Text Here"
-                  />
-                </div>
-                <div className=" ml-2 w-fit">
-                  <Button text="Submit Now!" />
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

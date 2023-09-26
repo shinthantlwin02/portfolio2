@@ -14,7 +14,7 @@ const Footer = () => {
           data-aos-once="true"
           className=" mb-10 md:mb-20 text-[30px] md:text-title_sm lg:text-title font-[700]"
         >
-          <h1 className=" mb-2">Ready to make something kickass?</h1>
+          <h1 className=" mb-2">Ready to Lead Your HR Initiatives to Success?</h1>
           <a
             href="#"
             className=" relative footer-cta text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500"
@@ -41,7 +41,7 @@ const Footer = () => {
                 src="https://assets.website-files.com/5fef5619b640934b33c2385e/60792c7df85964dafaa3825d_Vector.svg"
                 alt=""
               />
-              <div className=" font-[700]">shinshinshinstl@gmail.com</div>
+              <div className=" font-[700]">vipee1500@gmail.com</div>
             </a>
           </div>
 

@@ -28,7 +28,7 @@ const Services = () => {
         </div>
         <div className=" max-w-[810px] mt-[20px] mb-[110px] text-center mx-auto">
           <h2 className="text-[36px] md:text-[40px] lg:text-title font-bold leading-[110%] tracking-[1px]">
-            Design that solves problems, one product at a time.
+          Services I Can Provide to Elevate Your Organization
           </h2>
         </div>
       </div>

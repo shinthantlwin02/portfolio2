@@ -13,7 +13,7 @@ import OurTeam from "../components/OurTeam";
 
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const iconToggle = () => {
     return setDarkMode((darkMode) => !darkMode);
   };
@@ -30,7 +30,7 @@ const Home = () => {
   const themeSwitch = () => {
     if (document.documentElement.classList.contains("dark")) {
       document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "dark");
       iconToggle();
       return;
     }
@@ -50,9 +50,7 @@ const Home = () => {
         <section className="">
           <Hero />
         </section>
-        <section className=" py-[80px]">
-          <Projects />
-        </section>
+        
         <section className=" py-[80px]">
           <Services />
         </section>
@@ -60,9 +58,7 @@ const Home = () => {
         <section className=" py-[80px]">
           <About />
         </section>
-        <section className=" py-[80px]">
-          <OurTeam />
-        </section>
+       
         <section className=" py-[80px] pb-[160px]">
           <Contact />
         </section>
