@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Services from "../components/services/Services.jsx";
-import Projects from "../components/projects/Projects.jsx";
 import About from "../components/About";
-import Testimonials from "../components/Testimonials";
-import Faq from "../components/Faq";
 import Contact from "../components/Contact";
 import ThemeBtn from "../components/Theme/ThemeBtn";
-import OurTeam from "../components/OurTeam";
 
 
 const Home = () => {
