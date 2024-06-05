@@ -28,7 +28,7 @@ const Services = () => {
         </div>
         <div className=" max-w-[810px] mt-[20px] mb-[110px] text-center mx-auto">
           <h2 className="text-[36px] md:text-[40px] lg:text-title font-bold leading-[110%] tracking-[1px]">
-          Services I Can Provide to Elevate Your Organization
+          Services I Can Provide to Elevate Your User Experience
           </h2>
         </div>
       </div>

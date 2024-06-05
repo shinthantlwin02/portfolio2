@@ -16,13 +16,12 @@ const About = () => {
     <div  id="about" className="max-w-[1215px] px-5 mx-auto">
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" className="flex flex-wrap justify-between mb-[90px]">
         <div className="w-full mb-5 md:m-0 md:w-[45%]">
-          <h3 className="uppercase text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 text-base font-[600] tracking-wider my-2">Human Resources Manager</h3>
+          <h3 className="uppercase text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 text-base font-[600] tracking-wider my-2">UI/UX Designer</h3>
           <h1 className="text-[54px] dark:text-white text-black font-[700]">That's me!</h1>
         </div>
         <div className="w-full md:w-[55%]">
           <p className="text-base_sm md:text-base dark:text-gray-300 text-gray-500 font-[500] leading-9">
-          An experienced HR manager dedicated to your organization's success. With expertise in talent acquisition, employee development, and HR policy, I can help drive growth and engagement. 
-          </p>
+          An experienced UI/UX designer dedicated to enhancing your digital experiences. With expertise in user-centered design, prototyping, and UX research, I can help drive engagement and satisfaction for your users.</p>
         </div>
       </div>
 

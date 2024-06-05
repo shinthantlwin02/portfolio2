@@ -22,19 +22,19 @@ const Hero = () => {
             className="text-title_sm md:text-hero_title font-[700] tracking-tighter mb-8 "
           >
             <span className="text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500">
-            Your Bridge to a 
+            Elevating User Experience
             </span>{" "}
             <br />
-            More Productive, Happier Workforce
+            One Pixel at a Time
           </h1>
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
             data-aos-delay="200"
-            className="max-w-[600px] text-base_sm md:text-base font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
+            className="max-w-[600px] text-base_sm font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
           >
-            Hello, I'm Chen Min Oo, your dedicated HR partner. With a passion for people and a focus on results, I'm here to help your organization thrive. Let's work together to unlock your team's potential and build a vibrant workplace culture.
+            Hello, I'm Chen Min Oo. Welcome to my UI/UX portfolio. My work is dedicated to merging creativity with functionality to improve user experiences. My focus is on creating intuitive, user-centric designs. Check back soon to see how I transform ideas into impactful and effective designs.
           </p>
           <div
             data-aos="fade-up"

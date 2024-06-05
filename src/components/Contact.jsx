@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <div>
-        <div id="contact" className=" max-w-[1215px] flex justify-center">
+        <div id="contact" className=" max-w-[1215px] flex justify-center mx-auto">
           {/* contact wrapper  */}
           <div className="px-5">
             {/* left  */}
