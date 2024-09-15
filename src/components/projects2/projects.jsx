@@ -20,7 +20,7 @@ const projects = () => {
         </div>
       </div>
 
-      <div className="flex gap-10 md:gap-20 px-6 md:px-20">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-20 px-6 md:px-20">
         <a href="https://www.figma.com/file/aIrXKygW4F5jjP7o2fEvqG?locale=en&type=design" className="p-5 md:p-10 rounded-md border border-gray-400 hover:bg-gray-200">
             <h1 className="text-md text-gray-700 font-bold mb-4">Good Food - restaurant</h1>
             <img src={one} className="w-full h-[250px] md:h-[400px] object-cover"/>
