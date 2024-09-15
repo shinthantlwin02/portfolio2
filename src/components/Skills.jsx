@@ -15,8 +15,8 @@ const Skills = () => {
   const professionalSkills = [
     {id: 1,label: "Design", number: 80, duration: 1},
     {id: 2,label: "Teamwork", number: 75, duration: 1},
-    {id: 3,label: "Creativity", number: 65, duration: 1},
-    {id: 4,label: "Problem Solving", number: 85, duration: 1},
+    {id: 3,label: "Creativity", number: 80, duration: 1},
+    {id: 4,label: "Problem Solving", number: 70, duration: 1},
   ]
   
 

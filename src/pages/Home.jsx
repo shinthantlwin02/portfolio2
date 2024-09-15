@@ -6,6 +6,7 @@ import Services from "../components/services/Services.jsx";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import ThemeBtn from "../components/Theme/ThemeBtn";
+import Projects from '../components/projects2/projects';
 
 
 const Home = () => {
@@ -53,6 +54,10 @@ const Home = () => {
         
         <section className=" py-[80px]">
           <About />
+        </section>
+
+        <section className=" py-[80px]">
+          <Projects />
         </section>
        
         <section className=" py-[80px] pb-[160px]">
